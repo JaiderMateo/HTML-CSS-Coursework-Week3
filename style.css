@@ -1,1 +1,64 @@
 /*  Add your styling here */
+body{
+    margin:5%;
+}
+.Logo{
+    width: 100%;
+    /* background-color:  #EFEFEF; */
+}
+.Logo img{
+    width: 20%;
+    
+}
+.Logo p{
+    font-family: 'Truculenta', sans-serif;
+    text-align: right;
+    padding: 1%;
+
+}
+.bigCake{
+    width: 100%;
+}
+.imgI{
+    width: 46%;
+    height: 46%;
+    margin-right: 4%;
+}
+.imgD{
+    width: 46%;
+    height: 46%;
+}
+.footer{
+    margin-top: 4%;
+    background-color: #efefef17;
+    display: inline;    
+}
+@media only screen and (min-width: 540px) {
+    body {
+      background-color: red;
+    }
+    .bigCake{
+        width: 45%;
+        height: 200px;
+        float: left;
+  }
+  .text > p {
+      width: 50%;
+      float: right;
+      text-align: center;
+      display: flex;
+      align-items: center;
+  }
+  .text{
+      display: block;
+      margin: 10px 0% 100px 0%;
+  }
+  .imagenes > img{
+      width: 20%;
+      float: left;
+  }
+  @media only screen and (min-width: 900px) {
+    body {
+      background-color:blue;
+    }
+  }
